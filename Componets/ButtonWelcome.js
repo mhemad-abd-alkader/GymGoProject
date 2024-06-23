@@ -3,7 +3,7 @@ import { ActivityIndicator, StyleSheet, Text, TouchableOpacity } from 'react-nat
 
 const ButtonWelcome = (props) => {
   const { isLoading = false, title, onPress, style } = props;
-
+  //
   return (
     <TouchableOpacity
       style={[styles.button, style]}
